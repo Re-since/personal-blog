@@ -1,0 +1,24 @@
+@media screen and (max-width: 900px) {
+  .ant-card-extra {
+    display: none;
+  }
+}
+.detail {
+  .like {
+    margin-top: 4rem;
+    font-size: 1.2rem;
+    color: #ccc;
+    text-align: right;
+    .heart-icon {
+      margin-right: 4rem;
+      .heart-add {
+        @keyframes changeBgc {
+          50% { color: red;}
+          75% { color: deeppink;}
+          100% { color: none;}
+        }
+        animation: changeBgc 6s linear;
+      }
+    }
+  }
+}
